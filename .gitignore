@@ -2,3 +2,6 @@
 *.xlsx
 *.csv
 data
+*.pyc
+*.json
+*.jsonl

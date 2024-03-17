@@ -1,0 +1,5 @@
+seed: 0
+name: "GSDS_HNLP_KE"
+
+datasets:
+  output_dir: "../data/zsRE"

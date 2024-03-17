@@ -1,3 +1,7 @@
 *.zip
 *.xlsx
 *.csv
+data
+*.pyc
+*.json
+*.jsonl

@@ -3,3 +3,9 @@ name: "GSDS_HNLP_KE"
 
 datasets:
   output_dir: "../data/zsRE"
+
+path:
+  zsre_train_path: 'https://rome.baulab.info/data/dsets/zsre_mend_train.json'
+  zsre_eval_path: 'https://rome.baulab.info/data/dsets/zsre_mend_eval.json'
+  counterfact_path: "https://rome.baulab.info/data/dsets/counterfact.json"
+  fever_path: "data/fever/fever.jsonl"

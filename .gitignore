@@ -1,12 +1,13 @@
 *.zip
-*.xlsx
+#*.xlsx
 *.csv
 data
 *.pyc
-*.json
-*.jsonl
+#*.json
+#*.jsonl
 pararel-main
 biosbias
 EasyEdit
 model
 zsRE
+n-gram

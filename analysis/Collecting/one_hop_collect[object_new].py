@@ -4,9 +4,9 @@ import time
 from tqdm import tqdm
 
 
-df = pd.read_excel('df_34_obj_new_search.xlsx')
+df = pd.read_excel('df_full_obj_new.xlsx')
 
-df['one_hop'] = df['obj_id']
+df['obj_new_one_hop'] = df['obj_id']
 
 
 
@@ -66,12 +66,12 @@ for i in tqdm(range(len(df))):
     try:
         ans = main(df.iloc[i]['obj_id'])
         time.sleep(2)
-        df.loc[i, 'one_hop'] = ','.join(ans)
+        df.loc[i, 'obj_new_one_hop'] = ','.join(ans)
         
     except:
         print(f'error occured in {i}')
-        df.loc[i, 'one_hop'] = 'null'
+        df.loc[i, 'obj_new_one_hop'] = 'null'
         time.sleep(2)
         
 
-df.to_excel('df_one_hop_obj_new_34.xlsx', index = False)
+df.to_excel('df_one_hop_obj_new_full.xlsx', index = False)

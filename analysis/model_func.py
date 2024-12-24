@@ -40,12 +40,12 @@ def model_generate(tokenizer, model, text, max_length = 30):
     
     decoded_texts = [tokenizer.decode(x) for x in post_edit_outputs.detach().cpu().numpy().tolist()]
 
-    for index, decoded_text in enumerate(decoded_texts):
-        decoded_text = decoded_text.replace('<s>','')
-        decoded_text = decoded_text.replace('</s>','')
-        decoded_text = decoded_text.replace('[INST]','')
-        decoded_text = decoded_text.split('[/INST]', -1)[-1]
-        decoded_text = decoded_text.replace("\n", " ")
+    # for index, decoded_text in enumerate(decoded_texts):
+    #     decoded_text = decoded_text.replace('<s>','')
+    #     decoded_text = decoded_text.replace('</s>','')
+    #     decoded_text = decoded_text.replace('[INST]','')
+    #     decoded_text = decoded_text.split('[/INST]', -1)[-1]
+    #     decoded_text = decoded_text.replace("\n", " ")
     decoded_text = decoded_text.strip()
     return decoded_text
 

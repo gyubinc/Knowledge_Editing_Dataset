@@ -10,12 +10,14 @@ def now():
     current_directory = os.getcwd()
     print("현재 작업 디렉토리:", current_directory)
     
+
     
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
     transformers.set_seed(seed)
-    
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    torch.manual_seed(seed)
     # GPU seed 고정
     if torch.cuda.is_available():
         torch.cuda.manual_seed(seed)

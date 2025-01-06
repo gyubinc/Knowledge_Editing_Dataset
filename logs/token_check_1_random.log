@@ -1,0 +1,68 @@
+2025-01-05 22:18:49,721 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-05 22:18:49,721 - INFO - data : ../data/final_5000.json
+2025-01-05 22:18:49,721 - INFO - Attention blocking = False
+2025-01-05 22:18:49,721 - INFO - Chat Template = True
+2025-01-05 22:18:49,721 - INFO - Random = True
+2025-01-05 22:41:25,077 - INFO - sbj_hop_test with fact_knowledge : 0.2964
+2025-01-05 22:41:25,711 - INFO - 0.2964
+2025-01-05 23:03:54,380 - INFO - sbj_hop_test with edited_knowledge : 0.0114
+2025-01-05 23:03:54,380 - INFO - 0.0114
+2025-01-05 23:27:58,864 - INFO - obj_true_hop_test with fact_knowledge : 0.2924
+2025-01-05 23:27:58,864 - INFO - 0.2924
+2025-01-05 23:51:44,580 - INFO - obj_true_hop_test with edited_knowledge : 0.0108
+2025-01-05 23:51:44,580 - INFO - 0.0108
+2025-01-06 00:15:24,703 - INFO - obj_new_hop_test with fact_knowledge : 0.294
+2025-01-06 00:15:24,703 - INFO - 0.294
+2025-01-06 00:38:53,489 - INFO - obj_new_hop_test with edited_knowledge : 0.0102
+2025-01-06 00:38:53,489 - INFO - 0.0102
+2025-01-06 00:38:55,433 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-06 00:38:55,434 - INFO - data : ../data/final_5000.json
+2025-01-06 00:38:55,434 - INFO - Attention blocking = True
+2025-01-06 00:38:55,434 - INFO - Chat Template = True
+2025-01-06 00:38:55,434 - INFO - Random = True
+2025-01-06 01:04:54,846 - INFO - sbj_hop_test with fact_knowledge : 0.2638
+2025-01-06 01:04:54,846 - INFO - 0.2638
+2025-01-06 01:31:08,613 - INFO - sbj_hop_test with edited_knowledge : 0.0124
+2025-01-06 01:31:08,614 - INFO - 0.0124
+2025-01-06 01:57:32,393 - INFO - obj_true_hop_test with fact_knowledge : 0.2566
+2025-01-06 01:57:32,393 - INFO - 0.2566
+2025-01-06 02:24:50,378 - INFO - obj_true_hop_test with edited_knowledge : 0.0144
+2025-01-06 02:24:50,378 - INFO - 0.0144
+2025-01-06 02:50:32,161 - INFO - obj_new_hop_test with fact_knowledge : 0.2478
+2025-01-06 02:50:32,162 - INFO - 0.2478
+2025-01-06 03:16:32,720 - INFO - obj_new_hop_test with edited_knowledge : 0.012
+2025-01-06 03:16:32,720 - INFO - 0.012
+2025-01-06 03:16:34,738 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-06 03:16:34,738 - INFO - data : ../data/final_5000.json
+2025-01-06 03:16:34,738 - INFO - Attention blocking = False
+2025-01-06 03:16:34,738 - INFO - Chat Template = False
+2025-01-06 03:16:34,738 - INFO - Random = True
+2025-01-06 04:32:37,015 - INFO - sbj_hop_test with fact_knowledge : 0.3938
+2025-01-06 04:32:37,015 - INFO - 0.3938
+2025-01-06 05:48:38,193 - INFO - sbj_hop_test with edited_knowledge : 0.0202
+2025-01-06 05:48:38,193 - INFO - 0.0202
+2025-01-06 07:04:25,659 - INFO - obj_true_hop_test with fact_knowledge : 0.3864
+2025-01-06 07:04:25,659 - INFO - 0.3864
+2025-01-06 08:20:03,747 - INFO - obj_true_hop_test with edited_knowledge : 0.022
+2025-01-06 08:20:03,747 - INFO - 0.022
+2025-01-06 09:35:18,102 - INFO - obj_new_hop_test with fact_knowledge : 0.3904
+2025-01-06 09:35:18,102 - INFO - 0.3904
+2025-01-06 10:50:26,424 - INFO - obj_new_hop_test with edited_knowledge : 0.0194
+2025-01-06 10:50:26,424 - INFO - 0.0194
+2025-01-06 10:50:28,617 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-06 10:50:28,617 - INFO - data : ../data/final_5000.json
+2025-01-06 10:50:28,617 - INFO - Attention blocking = True
+2025-01-06 10:50:28,618 - INFO - Chat Template = False
+2025-01-06 10:50:28,618 - INFO - Random = True
+2025-01-06 12:06:52,078 - INFO - sbj_hop_test with fact_knowledge : 0.3806
+2025-01-06 12:06:52,078 - INFO - 0.3806
+2025-01-06 13:23:05,539 - INFO - sbj_hop_test with edited_knowledge : 0.02
+2025-01-06 13:23:05,539 - INFO - 0.02
+2025-01-06 14:39:25,945 - INFO - obj_true_hop_test with fact_knowledge : 0.3808
+2025-01-06 14:39:25,945 - INFO - 0.3808
+2025-01-06 15:56:13,318 - INFO - obj_true_hop_test with edited_knowledge : 0.022
+2025-01-06 15:56:13,318 - INFO - 0.022
+2025-01-06 17:13:06,427 - INFO - obj_new_hop_test with fact_knowledge : 0.3814
+2025-01-06 17:13:06,427 - INFO - 0.3814
+2025-01-06 18:30:10,564 - INFO - obj_new_hop_test with edited_knowledge : 0.0222
+2025-01-06 18:30:10,565 - INFO - 0.0222

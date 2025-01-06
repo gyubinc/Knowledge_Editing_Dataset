@@ -1,0 +1,32 @@
+2025-01-04 13:01:03,536 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-04 13:01:03,536 - INFO - data : ../data/final_5000.json
+2025-01-04 13:01:10,510 - INFO - Chat Template = False
+2025-01-04 13:02:57,388 - INFO - Subject hop sentence 2387
+2025-01-04 13:04:45,881 - INFO - Object true hop sentence 2777
+2025-01-04 13:06:35,609 - INFO - Object new hop sentence 2885
+2025-01-04 13:06:35,609 - INFO - Chat Template = True
+2025-01-04 13:08:25,792 - INFO - Subject hop sentence 2923
+2025-01-04 13:10:15,849 - INFO - Object true hop sentence 3287
+2025-01-04 13:12:05,922 - INFO - Object new hop sentence 3310
+
+2025-01-04 13:12:07,825 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-04 13:12:07,825 - INFO - data : ../data/final_5000.json
+2025-01-04 13:12:15,605 - INFO - Chat Template = False
+2025-01-04 13:14:06,221 - INFO - Subject hop sentence 2759
+2025-01-04 13:15:56,780 - INFO - Object true hop sentence 2974
+2025-01-04 13:17:47,539 - INFO - Object new hop sentence 3129
+2025-01-04 13:17:47,539 - INFO - Chat Template = True
+2025-01-04 13:19:38,520 - INFO - Subject hop sentence 3263
+2025-01-04 13:21:29,561 - INFO - Object true hop sentence 3526
+2025-01-04 13:23:20,516 - INFO - Object new hop sentence 3636
+
+2025-01-04 13:23:59,970 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-04 13:23:59,970 - INFO - data : ../data/real_final_e_full_with_generated_sentences.json
+2025-01-04 13:24:07,946 - INFO - Chat Template = False
+2025-01-04 13:32:08,878 - INFO - Subject hop sentence 9987
+2025-01-04 13:40:13,242 - INFO - Object true hop sentence 11766
+2025-01-04 13:48:17,750 - INFO - Object new hop sentence 11996
+2025-01-04 13:48:17,750 - INFO - Chat Template = True
+2025-01-04 13:56:22,668 - INFO - Subject hop sentence 12466
+2025-01-04 14:04:27,696 - INFO - Object true hop sentence 14174
+2025-01-04 14:12:33,044 - INFO - Object new hop sentence 14060

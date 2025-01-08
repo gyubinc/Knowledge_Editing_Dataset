@@ -66,3 +66,41 @@
 2025-01-06 16:18:26,512 - INFO - 0.048
 2025-01-06 17:31:24,412 - INFO - obj_new_hop_test with edited_knowledge : 0.6526
 2025-01-06 17:31:24,413 - INFO - 0.6526
+
+
+2025-01-07 02:09:56,172 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 02:09:56,172 - INFO - data : ../data/final_5000.json
+2025-01-07 02:09:56,172 - INFO - Attention blocking = False
+2025-01-07 02:09:56,172 - INFO - Chat Template = False
+2025-01-07 02:09:56,172 - INFO - Random = True
+2025-01-07 02:09:56,172 - INFO - Random_word = True
+2025-01-07 02:12:59,352 - INFO - good
+2025-01-07 03:25:11,339 - INFO - sbj_hop_test with fact_knowledge : 0.0538
+2025-01-07 03:25:11,339 - INFO - sbj_hop_test with edited_knowledge : 0.7968
+2025-01-07 03:25:11,339 - INFO - (0.0538, 0.7968)
+2025-01-07 03:25:11,339 - INFO - good
+2025-01-07 04:37:22,198 - INFO - obj_true_hop_test with fact_knowledge : 0.0532
+2025-01-07 04:37:22,198 - INFO - obj_true_hop_test with edited_knowledge : 0.7794
+2025-01-07 04:37:22,198 - INFO - (0.0532, 0.7794)
+2025-01-07 04:37:22,198 - INFO - good
+2025-01-07 05:49:25,500 - INFO - obj_new_hop_test with fact_knowledge : 0.045
+2025-01-07 05:49:25,500 - INFO - obj_new_hop_test with edited_knowledge : 0.8082
+2025-01-07 05:49:25,500 - INFO - (0.045, 0.8082)
+2025-01-07 05:49:29,425 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 05:49:29,425 - INFO - data : ../data/final_5000.json
+2025-01-07 05:49:29,425 - INFO - Attention blocking = False
+2025-01-07 05:49:29,425 - INFO - Chat Template = True
+2025-01-07 05:49:29,425 - INFO - Random = True
+2025-01-07 05:49:29,425 - INFO - Random_word = True
+2025-01-07 05:50:06,936 - INFO - good
+2025-01-07 06:15:06,861 - INFO - sbj_hop_test with fact_knowledge : 0.019
+2025-01-07 06:15:06,861 - INFO - sbj_hop_test with edited_knowledge : 0.7602
+2025-01-07 06:15:06,861 - INFO - (0.019, 0.7602)
+2025-01-07 06:15:06,861 - INFO - good
+2025-01-07 06:40:43,713 - INFO - obj_true_hop_test with fact_knowledge : 0.026
+2025-01-07 06:40:43,713 - INFO - obj_true_hop_test with edited_knowledge : 0.7422
+2025-01-07 06:40:43,713 - INFO - (0.026, 0.7422)
+2025-01-07 06:40:43,713 - INFO - good
+2025-01-07 07:06:29,180 - INFO - obj_new_hop_test with fact_knowledge : 0.018
+2025-01-07 07:06:29,180 - INFO - obj_new_hop_test with edited_knowledge : 0.7656
+2025-01-07 07:06:29,180 - INFO - (0.018, 0.7656)

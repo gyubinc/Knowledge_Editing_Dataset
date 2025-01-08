@@ -12,7 +12,5 @@ log_dir="../logs/token_check_1_random.log"
 cache_dir="../../.cache"
 cuda_num="0"
 
-python ../analysis/Attention/token_check.py --model_name "$model_name" --log_dir "$log_dir" --cache_dir "$cache_dir" --cuda_num "$cuda_num" --data_dir "$data_dir" --block_opt 0 --chat_opt 1 --random_opt 1
-python ../analysis/Attention/token_check.py --model_name "$model_name" --log_dir "$log_dir" --cache_dir "$cache_dir" --cuda_num "$cuda_num" --data_dir "$data_dir" --block_opt 1 --chat_opt 1 --random_opt 1
-python ../analysis/Attention/token_check.py --model_name "$model_name" --log_dir "$log_dir" --cache_dir "$cache_dir" --cuda_num "$cuda_num" --data_dir "$data_dir" --block_opt 0 --chat_opt 0 --random_opt 1
-python ../analysis/Attention/token_check.py --model_name "$model_name" --log_dir "$log_dir" --cache_dir "$cache_dir" --cuda_num "$cuda_num" --data_dir "$data_dir" --block_opt 1 --chat_opt 0 --random_opt 1
+python ../analysis/Attention/token_check.py --model_name "$model_name" --log_dir "$log_dir" --cache_dir "$cache_dir" --cuda_num "$cuda_num" --data_dir "$data_dir" --block_opt 0 --chat_opt 0 --random_opt 1 --random_word 1
+python ../analysis/Attention/token_check.py --model_name "$model_name" --log_dir "$log_dir" --cache_dir "$cache_dir" --cuda_num "$cuda_num" --data_dir "$data_dir" --block_opt 0 --chat_opt 1 --random_opt 1 --random_word 1

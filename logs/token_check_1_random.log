@@ -66,3 +66,42 @@
 2025-01-06 17:13:06,427 - INFO - 0.3814
 2025-01-06 18:30:10,564 - INFO - obj_new_hop_test with edited_knowledge : 0.0222
 2025-01-06 18:30:10,565 - INFO - 0.0222
+
+
+
+2025-01-07 02:13:18,806 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-07 02:13:18,823 - INFO - data : ../data/final_5000.json
+2025-01-07 02:13:18,824 - INFO - Attention blocking = False
+2025-01-07 02:13:18,824 - INFO - Chat Template = False
+2025-01-07 02:13:18,824 - INFO - Random = True
+2025-01-07 02:13:18,824 - INFO - Random_word = True
+2025-01-07 02:13:37,705 - INFO - good
+2025-01-07 03:30:10,504 - INFO - sbj_hop_test with fact_knowledge : 0.4138
+2025-01-07 03:30:10,505 - INFO - sbj_hop_test with edited_knowledge : 0.0194
+2025-01-07 03:30:10,505 - INFO - (0.4138, 0.0194)
+2025-01-07 03:30:10,505 - INFO - good
+2025-01-07 04:46:48,150 - INFO - obj_true_hop_test with fact_knowledge : 0.3986
+2025-01-07 04:46:48,150 - INFO - obj_true_hop_test with edited_knowledge : 0.0206
+2025-01-07 04:46:48,150 - INFO - (0.3986, 0.0206)
+2025-01-07 04:46:48,150 - INFO - good
+2025-01-07 06:03:04,144 - INFO - obj_new_hop_test with fact_knowledge : 0.3556
+2025-01-07 06:03:04,144 - INFO - obj_new_hop_test with edited_knowledge : 0.0382
+2025-01-07 06:03:04,144 - INFO - (0.3556, 0.0382)
+2025-01-07 06:03:06,204 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-07 06:03:06,204 - INFO - data : ../data/final_5000.json
+2025-01-07 06:03:06,204 - INFO - Attention blocking = False
+2025-01-07 06:03:06,204 - INFO - Chat Template = True
+2025-01-07 06:03:06,204 - INFO - Random = True
+2025-01-07 06:03:06,204 - INFO - Random_word = True
+2025-01-07 06:03:15,803 - INFO - good
+2025-01-07 06:27:46,396 - INFO - sbj_hop_test with fact_knowledge : 0.321
+2025-01-07 06:27:46,396 - INFO - sbj_hop_test with edited_knowledge : 0.0092
+2025-01-07 06:27:46,396 - INFO - (0.321, 0.0092)
+2025-01-07 06:27:46,396 - INFO - good
+2025-01-07 06:53:06,630 - INFO - obj_true_hop_test with fact_knowledge : 0.2956
+2025-01-07 06:53:06,630 - INFO - obj_true_hop_test with edited_knowledge : 0.0088
+2025-01-07 06:53:06,630 - INFO - (0.2956, 0.0088)
+2025-01-07 06:53:06,630 - INFO - good
+2025-01-07 07:17:47,781 - INFO - obj_new_hop_test with fact_knowledge : 0.2584
+2025-01-07 07:17:47,781 - INFO - obj_new_hop_test with edited_knowledge : 0.0212
+2025-01-07 07:17:47,781 - INFO - (0.2584, 0.0212)

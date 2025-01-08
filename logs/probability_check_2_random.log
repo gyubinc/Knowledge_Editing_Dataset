@@ -1,0 +1,131 @@
+2025-01-07 00:05:55,404 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 00:05:55,404 - INFO - data : ../data/final_5000.json
+2025-01-07 00:05:55,404 - INFO - Attention blocking = False
+2025-01-07 00:05:55,404 - INFO - Chat Template = False
+2025-01-07 00:05:55,404 - INFO - Random = True
+2025-01-07 00:07:42,017 - INFO - sbj_hop_test with fact_knowledge : 0.003668
+2025-01-07 00:07:42,017 - INFO - 0.003668233403188847
+2025-01-07 00:09:17,218 - INFO - sbj_hop_test with edited_knowledge : 0.564029
+2025-01-07 00:09:17,218 - INFO - 0.5640292824117042
+2025-01-07 00:10:52,392 - INFO - obj_true_hop_test with fact_knowledge : 0.003751
+2025-01-07 00:10:52,392 - INFO - 0.003750667218001344
+2025-01-07 00:12:27,547 - INFO - obj_true_hop_test with edited_knowledge : 0.543312
+2025-01-07 00:12:27,547 - INFO - 0.5433121334873733
+2025-01-07 00:14:02,747 - INFO - obj_new_hop_test with fact_knowledge : 0.003691
+2025-01-07 00:14:02,747 - INFO - 0.003690931794839115
+2025-01-07 00:15:37,946 - INFO - obj_new_hop_test with edited_knowledge : 0.5577
+2025-01-07 00:15:37,946 - INFO - 0.5576995233263531
+2025-01-07 00:15:40,206 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 00:15:40,206 - INFO - data : ../data/final_5000.json
+2025-01-07 00:15:40,206 - INFO - Attention blocking = True
+2025-01-07 00:15:40,206 - INFO - Chat Template = False
+2025-01-07 00:15:40,206 - INFO - Random = True
+2025-01-07 00:17:27,327 - INFO - sbj_hop_test with fact_knowledge : 0.005714
+2025-01-07 00:17:27,328 - INFO - 0.00571413256239735
+2025-01-07 00:19:04,488 - INFO - sbj_hop_test with edited_knowledge : 0.378636
+2025-01-07 00:19:04,488 - INFO - 0.3786358968917302
+2025-01-07 00:20:41,478 - INFO - obj_true_hop_test with fact_knowledge : 0.005143
+2025-01-07 00:20:41,479 - INFO - 0.0051428217589129365
+2025-01-07 00:22:18,437 - INFO - obj_true_hop_test with edited_knowledge : 0.376882
+2025-01-07 00:22:18,437 - INFO - 0.37688153659210605
+2025-01-07 00:23:55,363 - INFO - obj_new_hop_test with fact_knowledge : 0.005261
+2025-01-07 00:23:55,363 - INFO - 0.005260791936825609
+2025-01-07 00:25:32,266 - INFO - obj_new_hop_test with edited_knowledge : 0.382681
+2025-01-07 00:25:32,266 - INFO - 0.3826811922898744
+2025-01-07 00:25:34,220 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 00:25:34,220 - INFO - data : ../data/final_5000.json
+2025-01-07 00:25:34,220 - INFO - Attention blocking = False
+2025-01-07 00:25:34,220 - INFO - Chat Template = True
+2025-01-07 00:25:34,220 - INFO - Random = True
+2025-01-07 00:27:27,494 - INFO - sbj_hop_test with fact_knowledge : 0.003449
+2025-01-07 00:27:27,494 - INFO - 0.0034491028428048492
+2025-01-07 00:29:01,133 - INFO - sbj_hop_test with edited_knowledge : 0.571438
+2025-01-07 00:29:01,133 - INFO - 0.5714381884226462
+2025-01-07 00:30:34,850 - INFO - obj_true_hop_test with fact_knowledge : 0.003389
+2025-01-07 00:30:34,850 - INFO - 0.0033893743275738215
+2025-01-07 00:32:08,548 - INFO - obj_true_hop_test with edited_knowledge : 0.561959
+2025-01-07 00:32:08,548 - INFO - 0.5619591689929124
+2025-01-07 00:33:42,162 - INFO - obj_new_hop_test with fact_knowledge : 0.003026
+2025-01-07 00:33:42,162 - INFO - 0.003026478758633733
+2025-01-07 00:35:15,771 - INFO - obj_new_hop_test with edited_knowledge : 0.568389
+2025-01-07 00:35:15,772 - INFO - 0.5683891079745299
+2025-01-07 00:35:17,722 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 00:35:17,722 - INFO - data : ../data/final_5000.json
+2025-01-07 00:35:17,722 - INFO - Attention blocking = True
+2025-01-07 00:35:17,722 - INFO - Chat Template = True
+2025-01-07 00:35:17,722 - INFO - Random = True
+2025-01-07 00:37:14,474 - INFO - sbj_hop_test with fact_knowledge : 0.004339
+2025-01-07 00:37:14,475 - INFO - 0.004338915294690172
+2025-01-07 00:38:51,515 - INFO - sbj_hop_test with edited_knowledge : 0.26804
+2025-01-07 00:38:51,516 - INFO - 0.2680395675493106
+2025-01-07 00:40:28,363 - INFO - obj_true_hop_test with fact_knowledge : 0.004788
+2025-01-07 00:40:28,363 - INFO - 0.0047882515776625145
+2025-01-07 00:42:05,212 - INFO - obj_true_hop_test with edited_knowledge : 0.279295
+2025-01-07 00:42:05,212 - INFO - 0.2792948323309855
+2025-01-07 00:43:41,834 - INFO - obj_new_hop_test with fact_knowledge : 0.004202
+2025-01-07 00:43:41,834 - INFO - 0.004202059320586992
+2025-01-07 00:45:18,479 - INFO - obj_new_hop_test with edited_knowledge : 0.251603
+2025-01-07 00:45:18,479 - INFO - 0.2516026815572697
+
+
+
+2025-01-07 11:00:04,847 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 11:00:04,847 - INFO - data : ../data/final_5000.json
+2025-01-07 11:00:04,847 - INFO - Attention blocking = False
+2025-01-07 11:00:04,847 - INFO - Chat Template = False
+2025-01-07 11:00:04,847 - INFO - Random = True
+2025-01-07 11:00:04,847 - INFO - Random word = True
+2025-01-07 11:01:49,135 - INFO - sbj_hop_test with fact_knowledge : 0.005225
+2025-01-07 11:01:49,135 - INFO - 0.005224705962580651
+2025-01-07 11:03:24,545 - INFO - sbj_hop_test with edited_knowledge : 0.537718
+2025-01-07 11:03:24,545 - INFO - 0.5377180904766794
+2025-01-07 11:04:59,843 - INFO - obj_true_hop_test with fact_knowledge : 0.004742
+2025-01-07 11:04:59,843 - INFO - 0.004741621186468666
+2025-01-07 11:06:35,094 - INFO - obj_true_hop_test with edited_knowledge : 0.511161
+2025-01-07 11:06:35,094 - INFO - 0.5111612669169407
+2025-01-07 11:08:10,312 - INFO - obj_new_hop_test with fact_knowledge : 0.003457
+2025-01-07 11:08:10,312 - INFO - 0.0034574023150646376
+2025-01-07 11:09:45,507 - INFO - obj_new_hop_test with edited_knowledge : 0.531425
+2025-01-07 11:09:45,508 - INFO - 0.531424796568018
+2025-01-07 11:09:47,916 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 11:09:47,916 - INFO - data : ../data/final_5000.json
+2025-01-07 11:09:47,916 - INFO - Attention blocking = False
+2025-01-07 11:09:47,916 - INFO - Chat Template = True
+2025-01-07 11:09:47,916 - INFO - Random = True
+2025-01-07 11:09:47,916 - INFO - Random word = True
+2025-01-07 11:11:32,995 - INFO - sbj_hop_test with fact_knowledge : 0.005225
+2025-01-07 11:11:32,995 - INFO - 0.005224705962580651
+2025-01-07 11:13:08,585 - INFO - sbj_hop_test with edited_knowledge : 0.537718
+2025-01-07 11:13:08,585 - INFO - 0.5377180904766794
+2025-01-07 11:14:44,050 - INFO - obj_true_hop_test with fact_knowledge : 0.004742
+2025-01-07 11:14:44,050 - INFO - 0.004741621186468666
+2025-01-07 11:16:19,457 - INFO - obj_true_hop_test with edited_knowledge : 0.511161
+2025-01-07 11:16:19,457 - INFO - 0.5111612669169407
+2025-01-07 11:17:54,821 - INFO - obj_new_hop_test with fact_knowledge : 0.003457
+2025-01-07 11:17:54,821 - INFO - 0.0034574023150646376
+2025-01-07 11:19:30,176 - INFO - obj_new_hop_test with edited_knowledge : 0.531425
+2025-01-07 11:19:30,176 - INFO - 0.531424796568018
+2025-01-07 13:37:59,768 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 13:37:59,768 - INFO - data : ../data/final_5000.json
+2025-01-07 13:37:59,768 - INFO - Attention blocking = False
+2025-01-07 13:37:59,768 - INFO - Chat Template = False
+2025-01-07 13:37:59,768 - INFO - Random = True
+2025-01-07 13:37:59,768 - INFO - Random word = True
+2025-01-07 13:38:37,086 - INFO - model_name : dellaanima/KE_Meta-Llama-3-8B-Instruct_MEMIT_CF5000
+2025-01-07 13:38:37,086 - INFO - data : ../data/final_5000.json
+2025-01-07 13:38:37,086 - INFO - Attention blocking = False
+2025-01-07 13:38:37,086 - INFO - Chat Template = True
+2025-01-07 13:38:37,086 - INFO - Random = True
+2025-01-07 13:38:37,086 - INFO - Random word = True
+2025-01-07 13:40:20,565 - INFO - sbj_hop_test with fact_knowledge : 0.004524
+2025-01-07 13:40:20,565 - INFO - 0.004523746053329486
+2025-01-07 13:41:54,506 - INFO - sbj_hop_test with edited_knowledge : 0.571074
+2025-01-07 13:41:54,507 - INFO - 0.5710744656802661
+2025-01-07 13:43:28,503 - INFO - obj_true_hop_test with fact_knowledge : 0.004496
+2025-01-07 13:43:28,503 - INFO - 0.004496129403654869
+2025-01-07 13:45:02,491 - INFO - obj_true_hop_test with edited_knowledge : 0.552592
+2025-01-07 13:45:02,492 - INFO - 0.5525922460954904
+2025-01-07 13:46:36,270 - INFO - obj_new_hop_test with fact_knowledge : 0.002792
+2025-01-07 13:46:36,270 - INFO - 0.002792400556109034
+2025-01-07 13:48:10,058 - INFO - obj_new_hop_test with edited_knowledge : 0.571297
+2025-01-07 13:48:10,058 - INFO - 0.5712966519082875

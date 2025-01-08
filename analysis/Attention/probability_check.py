@@ -131,6 +131,156 @@ def hop_sentence_prob_chat(model, tokenizer, data, check_col, block_opt, opt = 0
     logging.info(f'{check_col} with {t} : {round(count / len(data), 6)}')
     return (count / len(data))
 
+def hop_sentence_prob_random(model, tokenizer, data, check_col, block_opt, opt = 0):
+    count = 0
+    for i in tqdm(range(len(data))):
+        if (i == len(data) - 1):
+            k = 0
+        else:
+            k = i+1
+        prefix_text = data[k]['generated_sentences'][check_col]['sentence_with_hop_word'][0] + data[i]['prompt'].format(data[i]['subject'])
+        block_text = data[k][check_col][0]
+        
+        if opt == 0:
+            target_text = ' '+data[i]['fact_knowledge']
+            t = 'fact_knowledge'
+        else:
+            target_text = ' ' + data[i]['edited_knowledge']
+            t = 'edited_knowledge'
+
+        prob = compute_sequence_blocking_probability(model, tokenizer, prefix_text, target_text, block_text, block_opt =block_opt)
+        count += prob
+    logging.info(f'{check_col} with {t} : {round(count / len(data), 6)}')
+    return (count / len(data))
+
+
+def hop_sentence_prob_random_chat(model, tokenizer, data, check_col, block_opt, opt = 0):
+    count = 0
+    for i in tqdm(range(len(data))):
+        if (i == len(data)-1):
+            k = 0
+        else:
+            k = i+1
+        prefix_text = make_chat_temp(data[k]['generated_sentences'][check_col]["sentence_with_hop_word"][0], data[i]['prompt'].format(data[i]['subject']))
+        block_text = data[k][check_col][0]
+        if opt == 0:
+            target_text = ' '+data[i]['fact_knowledge']
+            t = 'fact_knowledge'
+        else:
+            target_text = ' ' + data[i]['edited_knowledge']
+            t = 'edited_knowledge'
+        prob = compute_sequence_blocking_probability(model, tokenizer, prefix_text, target_text, block_text, block_opt =block_opt)
+        count += prob
+    logging.info(f'{check_col} with {t} : {round(count / len(data), 6)}')
+    return (count / len(data))
+
+
+import re
+
+class WordNotFoundError(Exception):
+    """대상 단어가 텍스트 내에 존재하지 않을 때 발생하는 예외."""
+    def __init__(self, target_word, message=None):
+        if message is None:
+            message = f"텍스트 내에 대상 단어 '{target_word}'가(이) 존재하지 않습니다."
+        super().__init__(message)
+        self.target_word = target_word
+
+def replace_word_in_text(
+    text: str,
+    target_word: str,
+    replacement_word: str,
+    case_insensitive: bool = True,
+    allow_partial_match: bool = True,
+    raise_when_not_found: bool = False
+) -> str:
+
+    if not target_word:
+        raise ValueError("대상 단어(target_word)가 비어 있습니다.")
+
+    # 정규식 플래그 설정
+    flags = re.IGNORECASE if case_insensitive else 0
+
+    if allow_partial_match:
+        # 부분 일치: 단순히 target_word가 어떤 위치에든 등장하면 매칭
+        #   예) "human" -> "humane"에서도 "human" 부분 찾아 교체
+        pattern_str = re.escape(target_word)
+    else:
+        # 정확한 단어 경계 매칭 (원본과 유사)
+        #   s/es 등의 간단한 복수형 정도만 허용하고 싶다면 추가 조정
+        #   아래에서는 기본만 예시
+        pattern_str = rf'(?<!\w){re.escape(target_word)}(?!\w)'
+
+    pattern = re.compile(pattern_str, flags)
+
+    # 매칭되는 부분이 있는지 확인
+    if not pattern.search(text) and raise_when_not_found:
+        # 원하는 경우에만 에러 발생
+        print("실패")
+        print(text)
+        print(target_word)
+
+    # 교체 수행
+    replaced_text = pattern.sub(replacement_word, text)
+    return replaced_text
+
+
+def hop_sentence_prob_random_word(model, tokenizer, data, check_col, block_opt, opt = 0):
+    count = 0
+    for i in tqdm(range(len(data))):
+        if (i == len(data) - 1):
+            k = 0
+        else:
+            k = i+1
+        prefix_text = data[i]['generated_sentences'][check_col]['sentence_with_hop_word'][0] + data[i]['prompt'].format(data[i]['subject'])
+        block_text = data[i][check_col][0]
+        try:
+            prefix_text = replace_word_in_text(prefix_text, block_text, data[k][check_col][0])
+        except:
+            logging.info(f"error occured")
+            logging.info(prefix_text)
+            logging.info(block_text)
+        
+        if opt == 0:
+            target_text = ' '+data[i]['fact_knowledge']
+            t = 'fact_knowledge'
+        else:
+            target_text = ' ' + data[i]['edited_knowledge']
+            t = 'edited_knowledge'
+
+        prob = compute_sequence_blocking_probability(model, tokenizer, prefix_text, target_text, block_text, block_opt =block_opt)
+        count += prob
+    logging.info(f'{check_col} with {t} : {round(count / len(data), 6)}')
+    return (count / len(data))
+
+
+def hop_sentence_prob_random_chat_word(model, tokenizer, data, check_col, block_opt, opt = 0):
+    count = 0
+    for i in tqdm(range(len(data))):
+        if (i == len(data)-1):
+            k = 0
+        else:
+            k = i+1
+        prefix_text = make_chat_temp(data[i]['generated_sentences'][check_col]["sentence_with_hop_word"][0], data[i]['prompt'].format(data[i]['subject']))
+        block_text = data[i][check_col][0]
+        try:
+            prefix_text = replace_word_in_text(prefix_text, block_text, data[k][check_col][0])
+        except:
+            logging.info(f"error occured")
+            logging.info(prefix_text)
+            logging.info(block_text)
+        if opt == 0:
+            target_text = ' '+data[i]['fact_knowledge']
+            t = 'fact_knowledge'
+        else:
+            target_text = ' ' + data[i]['edited_knowledge']
+            t = 'edited_knowledge'
+        prob = compute_sequence_blocking_probability(model, tokenizer, prefix_text, target_text, block_text, block_opt =block_opt)
+        count += prob
+    logging.info(f'{check_col} with {t} : {round(count / len(data), 6)}')
+    return (count / len(data))
+
+
+
 
 if __name__ == "__main__":
         
@@ -150,6 +300,8 @@ if __name__ == "__main__":
     parser.add_argument('--cuda_num', type=str, default = 0)
     parser.add_argument('--block_opt', type=int, default = 0)
     parser.add_argument('--chat_opt', type=int, default = 0)
+    parser.add_argument('--random_opt', type=int, default = 0)
+    parser.add_argument('--random_word', type=int, default=0)
 
     args = parser.parse_args()
     model_name = args.model_name
@@ -159,6 +311,8 @@ if __name__ == "__main__":
     cuda_num = args.cuda_num
     block_opt = args.block_opt
     chat_opt = args.chat_opt
+    random_opt = args.random_opt
+    random_word = args.random_word
     
     # 로깅 설정: 'app.log' 파일에 INFO 수준 이상의 로그를 저장
     logging.basicConfig(
@@ -180,6 +334,17 @@ if __name__ == "__main__":
         logging.info('Chat Template = True')
     else:
         logging.info('Chat Template = False')
+        
+    if random_opt == 1:
+        logging.info("Random = True")
+    else:
+        logging.info("Random = False")
+    
+    if random_word:
+        logging.info("Random word = True")
+    else:
+        logging.info("Random word = Falase")
+    
     os.environ["CUDA_VISIBLE_DEVICES"] = cuda_num
 
     now()
@@ -205,7 +370,21 @@ if __name__ == "__main__":
     hop_cols = ['sbj_hop_test', 'obj_true_hop_test', 'obj_new_hop_test']
     for check_col in hop_cols:
         for opt in range(0, 2):
-            if chat_opt==1:
-                logging.info(hop_sentence_prob_chat(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+            if random_opt == 1:
+                if random_word:
+                    if chat_opt==1:
+                        logging.info(hop_sentence_prob_random_chat_word(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+                    else:
+                        logging.info(hop_sentence_prob_random_word(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+                else:
+                    if chat_opt==1:
+                        logging.info(hop_sentence_prob_random_chat(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+                    else:
+                        logging.info(hop_sentence_prob_random(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+                    
+                    
             else:
-                logging.info(hop_sentence_prob(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+                if chat_opt==1:
+                    logging.info(hop_sentence_prob_chat(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))
+                else:
+                    logging.info(hop_sentence_prob(model, tokenizer, data, check_col, block_opt = block_opt, opt = opt))

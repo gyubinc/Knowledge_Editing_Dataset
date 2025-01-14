@@ -1,0 +1,96 @@
+2025-01-14 10:23:18,679 - INFO - **************************************************
+2025-01-14 10:23:18,679 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-14 10:23:18,679 - INFO - data : ../data/final_2000.json
+2025-01-14 10:23:18,679 - INFO - Attention blocking = False
+2025-01-14 10:23:18,679 - INFO - Chat Template = True
+2025-01-14 10:23:18,679 - INFO - Random = False
+2025-01-14 10:23:18,679 - INFO - Random word = False
+2025-01-14 10:23:56,414 - INFO - sbj_hop_test with fact_knowledge : 0.169
+2025-01-14 10:23:56,415 - INFO - 0.16946916987991006
+2025-01-14 10:24:15,313 - INFO - sbj_hop_test with edited_knowledge : 0.004
+2025-01-14 10:24:15,313 - INFO - 0.0036352502777432633
+2025-01-14 10:24:34,237 - INFO - obj_true_hop_test with fact_knowledge : 0.19
+2025-01-14 10:24:34,237 - INFO - 0.18966294749704407
+2025-01-14 10:24:53,157 - INFO - obj_true_hop_test with edited_knowledge : 0.002
+2025-01-14 10:24:53,157 - INFO - 0.002193601872617634
+2025-01-14 10:25:12,093 - INFO - obj_new_hop_test with fact_knowledge : 0.101
+2025-01-14 10:25:12,093 - INFO - 0.10064509327081507
+2025-01-14 10:25:31,586 - INFO - obj_new_hop_test with edited_knowledge : 0.059
+2025-01-14 10:25:31,586 - INFO - 0.059215230453725926
+2025-01-14 10:25:33,984 - INFO - **************************************************
+2025-01-14 10:25:33,984 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-14 10:25:33,984 - INFO - data : ../data/final_2000.json
+2025-01-14 10:25:33,984 - INFO - Attention blocking = True
+2025-01-14 10:25:33,984 - INFO - Chat Template = True
+2025-01-14 10:25:33,984 - INFO - Random = False
+2025-01-14 10:25:33,984 - INFO - Random word = False
+2025-01-14 10:26:01,932 - INFO - sbj_hop_test with fact_knowledge : 0.155
+2025-01-14 10:26:01,933 - INFO - 0.1551947071371629
+2025-01-14 10:26:22,041 - INFO - sbj_hop_test with edited_knowledge : 0.003
+2025-01-14 10:26:22,041 - INFO - 0.0034986486617068825
+2025-01-14 10:26:42,408 - INFO - obj_true_hop_test with fact_knowledge : 0.165
+2025-01-14 10:26:42,408 - INFO - 0.1653954988302551
+2025-01-14 10:27:02,876 - INFO - obj_true_hop_test with edited_knowledge : 0.003
+2025-01-14 10:27:02,877 - INFO - 0.0025490652422449924
+2025-01-14 10:27:23,324 - INFO - obj_new_hop_test with fact_knowledge : 0.092
+2025-01-14 10:27:23,324 - INFO - 0.09152964119938924
+2025-01-14 10:27:43,759 - INFO - obj_new_hop_test with edited_knowledge : 0.054
+2025-01-14 10:27:43,759 - INFO - 0.054416905095031304
+2025-01-14 10:27:45,646 - INFO - **************************************************
+2025-01-14 10:27:45,646 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-14 10:27:45,646 - INFO - data : ../data/final_2000.json
+2025-01-14 10:27:45,646 - INFO - Attention blocking = False
+2025-01-14 10:27:45,646 - INFO - Chat Template = True
+2025-01-14 10:27:45,646 - INFO - Random = False
+2025-01-14 10:27:45,646 - INFO - Random word = True
+2025-01-14 10:28:12,676 - INFO - sbj_hop_test with fact_knowledge : 0.169
+2025-01-14 10:28:12,676 - INFO - 0.16918315429432038
+2025-01-14 10:28:32,141 - INFO - sbj_hop_test with edited_knowledge : 0.004
+2025-01-14 10:28:32,142 - INFO - 0.0036354960515757526
+2025-01-14 10:28:51,900 - INFO - obj_true_hop_test with fact_knowledge : 0.191
+2025-01-14 10:28:51,900 - INFO - 0.19053396092764063
+2025-01-14 10:29:11,652 - INFO - obj_true_hop_test with edited_knowledge : 0.002
+2025-01-14 10:29:11,652 - INFO - 0.0021295291426123176
+2025-01-14 10:29:31,391 - INFO - obj_new_hop_test with fact_knowledge : 0.101
+2025-01-14 10:29:31,391 - INFO - 0.10068681776290984
+2025-01-14 10:29:51,146 - INFO - obj_new_hop_test with edited_knowledge : 0.059
+2025-01-14 10:29:51,146 - INFO - 0.058977557521774686
+2025-01-14 10:29:53,491 - INFO - **************************************************
+2025-01-14 10:29:53,491 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-14 10:29:53,491 - INFO - data : ../data/final_2000.json
+2025-01-14 10:29:53,491 - INFO - Attention blocking = False
+2025-01-14 10:29:53,491 - INFO - Chat Template = True
+2025-01-14 10:29:53,491 - INFO - Random = True
+2025-01-14 10:29:53,491 - INFO - Random word = False
+2025-01-14 10:30:20,805 - INFO - sbj_hop_test with fact_knowledge : 0.131
+2025-01-14 10:30:20,805 - INFO - 0.13144640206093408
+2025-01-14 10:30:40,497 - INFO - sbj_hop_test with edited_knowledge : 0.006
+2025-01-14 10:30:40,497 - INFO - 0.006074226370225815
+2025-01-14 10:31:00,396 - INFO - obj_true_hop_test with fact_knowledge : 0.124
+2025-01-14 10:31:00,396 - INFO - 0.12411698962421011
+2025-01-14 10:31:20,297 - INFO - obj_true_hop_test with edited_knowledge : 0.005
+2025-01-14 10:31:20,297 - INFO - 0.005063368133547423
+2025-01-14 10:31:40,238 - INFO - obj_new_hop_test with fact_knowledge : 0.128
+2025-01-14 10:31:40,239 - INFO - 0.128282224964729
+2025-01-14 10:32:00,214 - INFO - obj_new_hop_test with edited_knowledge : 0.005
+2025-01-14 10:32:00,214 - INFO - 0.004794515255105723
+2025-01-14 10:32:02,660 - INFO - **************************************************
+2025-01-14 10:32:02,660 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-14 10:32:02,660 - INFO - data : ../data/final_2000.json
+2025-01-14 10:32:02,660 - INFO - Attention blocking = True
+2025-01-14 10:32:02,660 - INFO - Chat Template = True
+2025-01-14 10:32:02,660 - INFO - Random = True
+2025-01-14 10:32:02,660 - INFO - Random word = False
+2025-01-14 10:32:30,718 - INFO - sbj_hop_test with fact_knowledge : 0.117
+2025-01-14 10:32:30,718 - INFO - 0.11684966683670744
+2025-01-14 10:32:51,047 - INFO - sbj_hop_test with edited_knowledge : 0.005
+2025-01-14 10:32:51,048 - INFO - 0.004689598104444718
+2025-01-14 10:33:11,514 - INFO - obj_true_hop_test with fact_knowledge : 0.119
+2025-01-14 10:33:11,514 - INFO - 0.118794652408917
+2025-01-14 10:33:32,037 - INFO - obj_true_hop_test with edited_knowledge : 0.005
+2025-01-14 10:33:32,037 - INFO - 0.005055140939406511
+2025-01-14 10:33:52,566 - INFO - obj_new_hop_test with fact_knowledge : 0.113
+2025-01-14 10:33:52,566 - INFO - 0.1127985956397445
+2025-01-14 10:34:13,096 - INFO - obj_new_hop_test with edited_knowledge : 0.004
+2025-01-14 10:34:13,096 - INFO - 0.00425603544181594
+

@@ -1,0 +1,81 @@
+
+2025-01-13 13:50:31,643 - INFO - **************************************************
+2025-01-13 13:50:31,643 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-13 13:50:31,643 - INFO - data : ../data/final_2000.json
+2025-01-13 13:50:31,643 - INFO - Attention blocking = False
+2025-01-13 13:50:31,643 - INFO - Chat Template = False
+2025-01-13 13:50:31,643 - INFO - Random = False
+2025-01-13 13:50:31,643 - INFO - Random_word = False
+2025-01-13 14:05:11,070 - INFO - sbj_hop_test with fact_knowledge : 466 / 1000 = 0.466 (0.466) 
+2025-01-13 14:05:11,071 - INFO - sbj_hop_test with edited_knowledge : 17 / 1000 0.017 (0.017) 
+2025-01-13 14:05:11,071 - INFO - Result => sbj_hop_test: fact=0.466, edited=0.017
+2025-01-13 14:19:39,851 - INFO - obj_true_hop_test with fact_knowledge : 518 / 1000 = 0.518 (0.518) 
+2025-01-13 14:19:39,851 - INFO - obj_true_hop_test with edited_knowledge : 24 / 1000 0.024 (0.024) 
+2025-01-13 14:19:39,851 - INFO - Result => obj_true_hop_test: fact=0.518, edited=0.024
+2025-01-13 14:34:08,662 - INFO - obj_new_hop_test with fact_knowledge : 346 / 1000 = 0.346 (0.346) 
+2025-01-13 14:34:08,662 - INFO - obj_new_hop_test with edited_knowledge : 170 / 1000 0.17 (0.17) 
+2025-01-13 14:34:08,662 - INFO - Result => obj_new_hop_test: fact=0.346, edited=0.17
+2025-01-13 14:34:11,056 - INFO - **************************************************
+2025-01-13 14:34:11,056 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-13 14:34:11,056 - INFO - data : ../data/final_2000.json
+2025-01-13 14:34:11,056 - INFO - Attention blocking = True
+2025-01-13 14:34:11,056 - INFO - Chat Template = False
+2025-01-13 14:34:11,056 - INFO - Random = False
+2025-01-13 14:34:11,056 - INFO - Random_word = False
+2025-01-13 14:48:50,268 - INFO - sbj_hop_test with fact_knowledge : 455 / 1000 = 0.455 (0.455) 
+2025-01-13 14:48:50,268 - INFO - sbj_hop_test with edited_knowledge : 21 / 1000 0.021 (0.021) 
+2025-01-13 14:48:50,268 - INFO - Result => sbj_hop_test: fact=0.455, edited=0.021
+2025-01-13 15:03:20,413 - INFO - obj_true_hop_test with fact_knowledge : 511 / 1000 = 0.511 (0.511) 
+2025-01-13 15:03:20,413 - INFO - obj_true_hop_test with edited_knowledge : 26 / 1000 0.026 (0.026) 
+2025-01-13 15:03:20,413 - INFO - Result => obj_true_hop_test: fact=0.511, edited=0.026
+2025-01-13 15:17:51,073 - INFO - obj_new_hop_test with fact_knowledge : 372 / 1000 = 0.372 (0.372) 
+2025-01-13 15:17:51,073 - INFO - obj_new_hop_test with edited_knowledge : 136 / 1000 0.136 (0.136) 
+2025-01-13 15:17:51,073 - INFO - Result => obj_new_hop_test: fact=0.372, edited=0.136
+2025-01-13 15:17:53,402 - INFO - **************************************************
+2025-01-13 15:17:53,403 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-13 15:17:53,403 - INFO - data : ../data/final_2000.json
+2025-01-13 15:17:53,403 - INFO - Attention blocking = False
+2025-01-13 15:17:53,403 - INFO - Chat Template = False
+2025-01-13 15:17:53,403 - INFO - Random = False
+2025-01-13 15:17:53,403 - INFO - Random_word = True
+2025-01-13 15:32:37,960 - INFO - sbj_hop_test with fact_knowledge : 407 / 1000 = 0.407 (0.407) 
+2025-01-13 15:32:37,961 - INFO - sbj_hop_test with edited_knowledge : 18 / 1000 0.018 (0.018) 
+2025-01-13 15:32:37,961 - INFO - Result => sbj_hop_test: fact=0.407, edited=0.018
+2025-01-13 15:47:14,139 - INFO - obj_true_hop_test with fact_knowledge : 395 / 1000 = 0.395 (0.395) 
+2025-01-13 15:47:14,140 - INFO - obj_true_hop_test with edited_knowledge : 12 / 1000 0.012 (0.012) 
+2025-01-13 15:47:14,140 - INFO - Result => obj_true_hop_test: fact=0.395, edited=0.012
+2025-01-13 16:01:50,367 - INFO - obj_new_hop_test with fact_knowledge : 373 / 1000 = 0.373 (0.373) 
+2025-01-13 16:01:50,367 - INFO - obj_new_hop_test with edited_knowledge : 31 / 1000 0.031 (0.031) 
+2025-01-13 16:01:50,368 - INFO - Result => obj_new_hop_test: fact=0.373, edited=0.031
+2025-01-13 16:01:52,748 - INFO - **************************************************
+2025-01-13 16:01:52,748 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-13 16:01:52,748 - INFO - data : ../data/final_2000.json
+2025-01-13 16:01:52,748 - INFO - Attention blocking = False
+2025-01-13 16:01:52,748 - INFO - Chat Template = False
+2025-01-13 16:01:52,748 - INFO - Random = True
+2025-01-13 16:01:52,748 - INFO - Random_word = False
+2025-01-13 16:16:30,670 - INFO - sbj_hop_test with fact_knowledge : 401 / 1000 = 0.401 (0.401) 
+2025-01-13 16:16:30,670 - INFO - sbj_hop_test with edited_knowledge : 22 / 1000 0.022 (0.022) 
+2025-01-13 16:16:30,670 - INFO - Result => sbj_hop_test: fact=0.401, edited=0.022
+2025-01-13 16:30:59,391 - INFO - obj_true_hop_test with fact_knowledge : 379 / 1000 = 0.379 (0.379) 
+2025-01-13 16:30:59,391 - INFO - obj_true_hop_test with edited_knowledge : 26 / 1000 0.026 (0.026) 
+2025-01-13 16:30:59,391 - INFO - Result => obj_true_hop_test: fact=0.379, edited=0.026
+2025-01-13 16:45:28,206 - INFO - obj_new_hop_test with fact_knowledge : 392 / 1000 = 0.392 (0.392) 
+2025-01-13 16:45:28,206 - INFO - obj_new_hop_test with edited_knowledge : 24 / 1000 0.024 (0.024) 
+2025-01-13 16:45:28,206 - INFO - Result => obj_new_hop_test: fact=0.392, edited=0.024
+2025-01-13 16:45:30,547 - INFO - **************************************************
+2025-01-13 16:45:30,548 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-13 16:45:30,548 - INFO - data : ../data/final_2000.json
+2025-01-13 16:45:30,548 - INFO - Attention blocking = True
+2025-01-13 16:45:30,548 - INFO - Chat Template = False
+2025-01-13 16:45:30,548 - INFO - Random = True
+2025-01-13 16:45:30,548 - INFO - Random_word = False
+2025-01-13 17:00:09,301 - INFO - sbj_hop_test with fact_knowledge : 385 / 1000 = 0.385 (0.385) 
+2025-01-13 17:00:09,301 - INFO - sbj_hop_test with edited_knowledge : 21 / 1000 0.021 (0.021) 
+2025-01-13 17:00:09,301 - INFO - Result => sbj_hop_test: fact=0.385, edited=0.021
+2025-01-13 17:14:38,422 - INFO - obj_true_hop_test with fact_knowledge : 392 / 1000 = 0.392 (0.392) 
+2025-01-13 17:14:38,422 - INFO - obj_true_hop_test with edited_knowledge : 26 / 1000 0.026 (0.026) 
+2025-01-13 17:14:38,422 - INFO - Result => obj_true_hop_test: fact=0.392, edited=0.026
+2025-01-13 17:29:07,295 - INFO - obj_new_hop_test with fact_knowledge : 385 / 1000 = 0.385 (0.385) 
+2025-01-13 17:29:07,295 - INFO - obj_new_hop_test with edited_knowledge : 24 / 1000 0.024 (0.024) 
+2025-01-13 17:29:07,295 - INFO - Result => obj_new_hop_test: fact=0.385, edited=0.024

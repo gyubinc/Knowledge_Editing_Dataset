@@ -129,3 +129,11 @@
 2025-01-07 13:47:05,469 - INFO - 0.10194684585220945
 2025-01-07 13:48:45,804 - INFO - obj_new_hop_test with edited_knowledge : 0.006583
 2025-01-07 13:48:45,805 - INFO - 0.006583435494112011
+2025-01-08 16:32:58,785 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-08 16:32:58,785 - INFO - data : ../data/final_5000.json
+2025-01-08 16:32:58,785 - INFO - Attention blocking = False
+2025-01-08 16:32:58,785 - INFO - Chat Template = True
+2025-01-08 16:32:58,785 - INFO - Random = True
+2025-01-08 16:32:58,785 - INFO - Random word = True
+2025-01-08 16:34:49,639 - INFO - sbj_hop_test with fact_knowledge : 0.136725
+2025-01-08 16:34:49,639 - INFO - 0.13672483887028247

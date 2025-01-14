@@ -1,0 +1,19 @@
+2025-01-14 11:17:20,427 - INFO - **************************************************
+2025-01-14 11:17:20,427 - INFO - model_name : meta-llama/Meta-Llama-3-8B-Instruct
+2025-01-14 11:17:20,427 - INFO - data : ../data/final_2000.json
+2025-01-14 11:17:20,427 - INFO - Attention blocking = False
+2025-01-14 11:17:20,427 - INFO - Chat Template = True
+2025-01-14 11:17:20,427 - INFO - Random = False
+2025-01-14 11:17:20,427 - INFO - Random word = False
+2025-01-14 11:17:50,066 - INFO - sbj_hop_test with fact_knowledge : 0.178
+2025-01-14 11:17:50,066 - INFO - 0.17835063810232507
+2025-01-14 11:18:08,240 - INFO - sbj_hop_test with edited_knowledge : 0.004
+2025-01-14 11:18:08,240 - INFO - 0.0038221850153237306
+2025-01-14 11:18:26,409 - INFO - obj_true_hop_test with fact_knowledge : 0.178
+2025-01-14 11:18:26,409 - INFO - 0.17835063810232507
+2025-01-14 11:18:44,576 - INFO - obj_true_hop_test with edited_knowledge : 0.004
+2025-01-14 11:18:44,576 - INFO - 0.0038221850153237306
+2025-01-14 11:19:02,738 - INFO - obj_new_hop_test with fact_knowledge : 0.178
+2025-01-14 11:19:02,738 - INFO - 0.17835063810232507
+2025-01-14 11:19:20,902 - INFO - obj_new_hop_test with edited_knowledge : 0.004
+2025-01-14 11:19:20,902 - INFO - 0.0038221850153237306
